@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: e e, e, LIC=DSN01-CY3XK-799G1-CI979-AKND4-E3BSP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMSTM.DLL V1.66.0.1
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+C:\stm32项目\pwm\USER\PWM.uvprojx
+Project File Date:  03/06/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'PWM'
+compiling stm32f10x_it.c...
+compiling led.c...
+compiling main.c...
+main.c(14): warning:  #177-D: variable "led0pwmval" was declared but never referenced
+      u16 led0pwmval=0;
+main.c(15): warning:  #177-D: variable "outputCounter" was declared but never referenced
+      u16 outputCounter = 0;
+main.c(16): warning:  #177-D: variable "inputCounter" was declared but never referenced
+      u16 inputCounter = 0;
+main.c(17): warning:  #177-D: variable "dir" was declared but never referenced
+  	u8 dir=1;	
+main.c: 4 warnings, 0 errors
+compiling system_stm32f10x.c...
+compiling timer.c...
+compiling key.c...
+compiling delay.c...
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling misc.c...
+compiling usart.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling sys.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+linking...
+Program Size: Code=9344 RO-data=268 RW-data=56 ZI-data=1848  
+FromELF: creating hex file...
+"..\OBJ\PWM.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\stm32项目\pwm\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
